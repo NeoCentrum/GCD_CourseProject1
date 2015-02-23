@@ -1,4 +1,4 @@
-readDataSets <- function(){
+analyzeData <- function(){
   #Get All Activity Labels
   activityLabel <- read.table("activity_labels.txt", header = FALSE, sep = " ",quote = "\"'",na.strings = "?",col.names = c("ActivityId","ActivityLabels"))  
   print("Sample Activity Labels Data")
@@ -123,3 +123,5 @@ readDataSets <- function(){
  #return Verify Final Dataset
  verify_sub_act_mean_X_dataset_mean_std
 }
+
+analyzeData()
