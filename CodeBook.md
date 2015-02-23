@@ -7,7 +7,7 @@ output: html_document
 New Feature Variables
 -----------------------
 
-
+```
 
  [1] "Subject"                                                       "Activity"                                                     
  [3] "Average.of.Time.Mean.Body.Acceleration.X"                      "Average.of.Time.Mean.Body.Acceleration.Y"                     
@@ -44,11 +44,11 @@ New Feature Variables
 [65] "Average.of.Frequency.Mean.Body.Gyro.Magnitude"                 "Average.of.Frequency.Std.Dev.Body.Gyro.Magnitude"             
 [67] "Average.of.Frequency.Mean.Body.Gyro.Jerk.Magnitude"            "Average.of.Frequency.Std.Dev.Body.Gyro.Jerk.Magnitude" 
 
-
+```
 
 Original Feature Selection from the originalk File - Please refer the additional variables for the question Dataset above.
 =================
-
+```
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
 Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). 
@@ -108,3 +108,4 @@ The complete list of variables of each feature vector is available in 'features.
 
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+```
