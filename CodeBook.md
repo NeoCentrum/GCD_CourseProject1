@@ -7,6 +7,76 @@ output: html_document
 New Feature Variables
 -----------------------
 
+All Variables are made self explanatory.
+
+```
+Time.Mean.Body.Acceleration.X
+Time.Mean.Body.Acceleration.Y                     
+Time.Mean.Body.Acceleration.Z
+Time.Std.Dev.Body.Acceleration.X                  
+Time.Std.Dev.Body.Acceleration.Y
+Time.Std.Dev.Body.Acceleration.Z                  
+Time.Mean.Gravity.Acceleration.X
+Time.Mean.Gravity.Acceleration.Y                  
+Time.Mean.Gravity.Acceleration.Z
+Time.Std.Dev.Gravity.Acceleration.X               
+Time.Std.Dev.Gravity.Acceleration.Y
+Time.Std.Dev.Gravity.Acceleration.Z               
+Time.Mean.Body.Acceleration.Jerk.X
+Time.Mean.Body.Acceleration.Jerk.Y                
+Time.Mean.Body.Jerk.Acceleration.Z
+Time.Std.Dev.Body.Acceleration.Jerk.X             
+Time.Std.Dev.Body.Acceleration.Jerk.Y
+Time.Std.Dev.Body.Acceleration.Jerk.Z             
+Time.Mean.Body.Gyro.Axis.X
+Time.Mean.Body.Gyro.Axis.Y                        
+Time.Mean.Body.Gyro.Axis.Z
+Time.Std.Dev.Body.Gyro.Axis.X                     
+Time.Std.Dev.Body.Gyro.Axis.Y                      
+Time.Std.Dev.Body.Gyro.Axis.Z                     
+Time.Mean.Body.Gyro.Jerk.Axis.X
+Time.Mean.Body.Gyro.Jerk.Axis.Y                   
+Time.Mean.Body.Gyro.Jerk.Axis.Z
+Time.Std.DEv.Body.Gyro.Jerk.Axis.X                
+Time.Std.Dev.Body.Gyro.Jerk.Axis.Y
+Time.Std.Dev.Body.Gyro.Jerk.Axis.Z                
+Time.Mean.Body.Acceleration.Magnitude              
+Time.Std.Dev.Body.Acceleration.Magnitude          
+Time.Mean.Gravity.Acceleration.Magnitude          
+Time.Std.Dev.Gravity.Acceleration.Magnitude       
+Time.Mean.Body.Acceleration.Jerk.Magnitude        
+Time.Std.Dev.Body.Acceleration.Jerk.Magnitude     
+Time.Mean.Body.Gyro.Magnitude                     
+Time.Std.Dev.Body.Gyro.Magnitude                  
+Time.Mean.Body.Gyro.Jerk.Magnitude                 
+Time.Std.Dev.Body.Gyro.Jerk.Magnitude             
+Frequency.Mean.Body.Acceleration.X                
+Frequency.Mean.Body.Acceleration.Y                
+Frequency.Mean.Body.Acceleration.Z                
+Frequency.Std.Dev.Body.Acceleration.X             
+Frequency.Std.Dev.Body.Acceleration.Y              
+Frequency.Std.Dev.Body.Acceleration.Z             
+Frequency.Mean.Body.Acceleration.Jerk.X            
+Frequency.Mean.Body.Acceleration.Jerk.Y           
+Frequency.Mean.Body.Acceleration.Jerk.Z            
+Frequency.Std.Dev.Body.Acceleration.Jerk.X        
+Frequency.Std.Dev.Body.Acceleration.Jerk.Y         
+Frequency.Std.Dev.Body.Acceleration.Jerk.Z        
+Frequency.Mean.Body.Gyro.Axis.X                    
+Frequency.Mean.Body.Gyro.Axis.Y                   
+Frequency.Mean.Body.Gyro.Axis.Z                    
+Frequency.Std.Dev.Body.Gyro.Axis.X                
+Frequency.Std.Dev.Body.Gyro.Axis.Y                 
+Frequency.Std.Dev.Body.Gyro.Axis.Z                
+Frequency.Mean.Body.Acceleration.Magnitude         
+Frequency.Std.Dev.Body.Acceleration.Magnitude     
+Frequency.Mean.Body.Acceleration.Jerk.Magnitude    
+Frequency.Std.Dev.Body.Acceleration.Jerk
+```
+
+
+
+All Variables have the "Average.of" to indicate that they are average of the given measurements.
 ```
 
  "Subject" : Subject Code which identifies user who perfomed the activity
